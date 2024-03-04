@@ -1,0 +1,10 @@
+[0304/110944.363:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Feature xr-spatial-tracking's parameters are ignored.", source:  (0)
+[0304/110944.364:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[0304/110944.364:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[0304/110944.364:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'gamepad'.", source:  (0)
+[0304/110944.364:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'local-fonts'.", source:  (0)
+[0304/110944.365:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'window-management'.", source:  (0)
+[0304/110944.365:INFO:CONSOLE(0)] "Error with Permissions-Policy-Report-Only header: Feature picture-in-picture's parameters are ignored.", source:  (0)
+[0304/110945.455:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\home\Desktop\לימודים\ווצאפ דור2\whatsappS\.wwebjs_auth\RemoteAuth-1234567890\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb,Corruption: checksum mismatch
+[0304/110945.455:ERROR:indexed_db_factory_impl.cc(715)] Got corruption for { origin: https://web.whatsapp.com, top-level site: https://whatsapp.com, nonce: <null>, ancestor chain bit: Same-Site }, checksum mismatch
+[0304/110945.461:ERROR:indexed_db_factory_impl.cc(849)] IndexedDB recovering from a corrupted (and deleted) database.

@@ -1,0 +1,5 @@
+2024/03/04-12:38:42.875 4f88 Reusing MANIFEST C:\Users\home\Desktop\לימודים\ווצאפ דור2\whatsappS\.wwebjs_auth\RemoteAuth-bla\Default\Local Storage\leveldb/MANIFEST-000001
+2024/03/04-12:38:42.892 4f88 Recovering log #3
+2024/03/04-12:38:42.892 4f88 (ignoring error) C:\Users\home\Desktop\לימודים\ווצאפ דור2\whatsappS\.wwebjs_auth\RemoteAuth-bla\Default\Local Storage\leveldb/000003.log: dropping 32768 bytes; Corruption: checksum mismatch
+2024/03/04-12:38:42.892 4f88 (ignoring error) C:\Users\home\Desktop\לימודים\ווצאפ דור2\whatsappS\.wwebjs_auth\RemoteAuth-bla\Default\Local Storage\leveldb/000003.log: dropping 279 bytes; Corruption: missing start of fragmented record(2)
+2024/03/04-12:38:42.892 4f88 Reusing old log C:\Users\home\Desktop\לימודים\ווצאפ דור2\whatsappS\.wwebjs_auth\RemoteAuth-bla\Default\Local Storage\leveldb/000003.log 
