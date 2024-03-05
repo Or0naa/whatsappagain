@@ -35,8 +35,6 @@ const createWhatsappSession = (id, socket) => {
     const client = new Client({
         puppeteer: {
             headless: true,
-            // args: ['--no-sandbox'] // Required for Linux
-
         },
         authStrategy: new RemoteAuth({
             clientId: id,
@@ -74,7 +72,8 @@ const createWhatsappSession = (id, socket) => {
 const getWhatsappSession = (id, socket) => {
     const client = new Client({
         puppeteer: {
-            headless: true,
+            headless: true
+            ,
         },
         authStrategy: new RemoteAuth({
             clientId: id,
@@ -82,15 +81,12 @@ const getWhatsappSession = (id, socket) => {
             backupSyncIntervalMs: 300000,
         }),
     });
-    
+
+    console.log("client", client);
+
     try{
         client.initialize();
 
-        allSessionsObject[id] = client;
-        socket.emit("ready", {
-            id,
-            message: "client is ready",
-        });
         client.on('auth_failure', (msg) => {
             console.error('AUTH FAILURE:', msg);
         });
@@ -112,21 +108,6 @@ const getWhatsappSession = (id, socket) => {
     } catch (e) {
         console.log("error", e);
     }
-
-    // client.on('ready', () => {
-    //     console.log('Client is ready!');
-    //     socket.emit("ready", {
-    //         id,
-    //         message: "client is ready",
-    //     });
-    // });
-
-    // client.on("auth_failure", (unreadCount) => {
-    //     console.log("logged out and here is QR code", unreadCount);
-      
-    // });
-
-    // client.initialize();
 };
 
 io.on("connection", (socket) => {
